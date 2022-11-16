@@ -18,38 +18,54 @@
   <div class="page-wrapper">
    
     
-<nav class="navbar">
-  <div class="navbar__container">
-    <div class="logo-container" id="navbar__logo">
-    <img src="./imgs/LOGO-PET.jpg" alt="" width="100" height="48" />
-    </div>
+    <nav class="navbar">
+      <div class="navbar-container">
+        <div class="logo-container" id="navbar-logo">
+        <img src="./imgs/LOGO-PET.jpg" alt="" width="100" height="48" />
+        </div>
+        
+        <input type="search" placeholder="Search" class="search-bar">
+        <div class="navbar-toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
     
-    <input type="search" placeholder="Search" class="search-bar">
-
-    <ul class="navbar-menu">
-      <li class="navbar__item">
-        <a href="index.html" class="navbar__links" id="home-page">Home</a>
-      </li>
-    </div>
-    <ul class="navbar-menu">
-      <li class="navbar-item">
-        <a href="index.html" class="navbar__links" id="home-page">Pet Care</a>
-      </li>
- 
-      <li class="navbar_-item">
-        <a href="#services" class="navbar__links" id="services-page"
-          >Services</a
-        >
-        <li class="navbar-item">
-          <a href="#services" class="navbar__links" id="services-page" 
-            >About</a>
-      </li>
-      <li class="navbar-btn">
-        <a href="#sign-up" class="button" id="signup">Sign Up</a>
-      </li>
-    </ul>
-    </div>
-</nav>
+    
+          <ul class="navbar-menu">
+            <li class="navbar-item">
+              <a href="index.html" class="navbar-links" id="home-page">Home</a>
+            </li>
+          <li class="navbar-item" >
+            <a href="index.html" class="navbar-links"  id="drop-menu-src">Pet Care</a>
+            <ul id="drop-list">
+              <li> <a href="dog-care.html" class="navbar-links" id="petcare-page">Dog Care</a></li>
+              <li> <a href="cat-care.html" class="navbar-links" id="petcare-page">Cat Care</a></li>
+              <li> <a href="small-animal.html" class="navbar-links" id="petcare-page">Small Animal Care</a></li>
+            </ul>
+    
+          </li>
+     
+          <li class="navbar-item">
+            <a href="#services" class="navbar-links" id="services-page"
+              >Services</a
+            >
+            <li class="navbar-item">
+              <a href="#services" class="navbar-links" id="about-page"
+                >About</a>
+          </li>
+          <li class="navbar-btn">
+            <a href="sign-up.html" class="button" id="signup">Create Account</a>
+        
+          </li>
+          <li class="navbar-btn">
+           
+            <a href="sign-up.html" class="button" id="signup">Login</a>
+          </li>
+         
+        </ul>
+        </div>
+    </nav>
+    
     <ul class="breadcrumb">
       <li><a href="index.html">Home</a></li>
       

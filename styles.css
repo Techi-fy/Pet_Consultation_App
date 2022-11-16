@@ -99,11 +99,11 @@ height: 80px;
   padding: 10px 20px;
   height: 100%;
   width: 100%;
-  border: none;
+  
   outline: none;
-  border-radius: 4px;
-  background: #1e4489;
-  color: #fff;
+
+ 
+  color: #1e4489;
   transition: all 0.3s ease;
 }
 
@@ -118,6 +118,12 @@ height: 80px;
 #drop-list{
  background-color:  rgb(235, 235, 235);
 
+}
+/*target login form*/
+.login-container{
+  width:100%;
+  height: 300px;
+  background-color: #9518fc;
 }
 .image-wrapper{
   
