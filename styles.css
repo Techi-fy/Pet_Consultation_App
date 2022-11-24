@@ -375,11 +375,6 @@ ul.breadcrumb li a:hover {
   color: #01447e;
   text-decoration: underline;
 } 
-.company-intro{
-
-  margin:50px 12px 0 12px;
-  line-height: 2rem;
-}
 
 .dog-page-intro{
 
@@ -387,6 +382,15 @@ ul.breadcrumb li a:hover {
   line-height: 2rem;
  
 }
+/*this is the mobile styles for 'the gift of pets"*/
+.company-intro{
+ padding: 0 0px 0 0px;
+  margin:50px 16px 0 16px;
+  line-height: 2rem;
+  border: solid black;
+  
+}
+
 .intro-title{
 
   font-weight: 300;
@@ -396,6 +400,7 @@ ul.breadcrumb li a:hover {
 }
 .intro-paragraph{
   margin-top:16px;
+
  
 }
 .topic-title{
@@ -615,6 +620,7 @@ font-style: italic;
 }
 
 @media screen and (min-width:768px) {
+
  
   .search-bar{
     width:268px;
@@ -684,6 +690,10 @@ font-style: italic;
 }
 
 @media screen and (max-width: 960px) {
+  .navbar-btn {
+    visibility: hidden;
+   }
+   
   .navbar-container {
     display: flex;
     justify-content: space-between;
@@ -821,7 +831,7 @@ font-style: italic;
 
 
 }
-/*Responsive Image for 320px*/
+
 .image-landing{
 
  margin-top: 0;
@@ -901,7 +911,6 @@ color: #FFFFFF;
 
 }
 
-/*Responsive Image for 320px*/
 .image-landing{
 
  margin-top: 0;
