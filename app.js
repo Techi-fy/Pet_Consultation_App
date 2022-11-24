@@ -16,7 +16,7 @@ const mobileMenu = () => {
 menu.addEventListener('click', mobileMenu);
 
 // Display Links Drop Menu
-
+/*
 dropList.style.display = "none";
 
 dropMenu.addEventListener('mouseenter', (event) => {
@@ -27,21 +27,4 @@ else{
     dropList.style.display= "none"
 }
 })
-
-
-if (passwordForm.value.length >= 20) {
-  messages.push('Password must be less than 25 characters')
-}
-
-if (messages.length > 0) {
-  e.preventDefault()
-  errorElement.innerText = messages.join(', ')
-
-}
-//function CheckPassword(passwordForm) 
-var pwSecure =  /^[A-Za-z]\w{7,14}$/;
-if(passwordForm.value.match(pwSecure)) 
-{ 
-alert('Correct, try another...')
-return true;
-}
+*/

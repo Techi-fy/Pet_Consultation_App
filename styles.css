@@ -78,18 +78,33 @@ height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
+  scroll-behavior: smooth;
   width: 90px;
   text-decoration: none;
   height: 100%;
   transition: all 0.3s ease;
+  font-size: 1rem;
+
+
+
 }
+/*hide desktop drop menu for petcare*/
+#drop-list{
+  display: none;
+}
+.navbar-item:nth-child(3)
+{
+  display: none;
+}
+
+#drop-list{
+  background-color:  rgb(235, 235, 235);
+ 
+ }
 .navbar-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 1rem;
-  width: 100%;
+ visibility: hidden;
 }
+
 
 .button {
   display: flex;
@@ -115,10 +130,7 @@ height: 80px;
   margin: 0 auto;
   width: 100px;
 }
-#drop-list{
- background-color:  rgb(235, 235, 235);
 
-}
 /*target login form*/
 .login-container{
   width:100%;
@@ -656,6 +668,19 @@ font-style: italic;
   
 
 }
+.navbar-btn {
+  padding-bottom: 2rem;
+}
+.navbar-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  width: 100%;
+  visibility: visible;
+}
+
+
 }
 
 @media screen and (max-width: 960px) {
@@ -714,9 +739,7 @@ font-style: italic;
     display: table;
   }
 
-  .navbar-btn {
-    padding-bottom: 2rem;
-  }
+ 
 
   .button {
     display: flex;
@@ -728,6 +751,7 @@ font-style: italic;
   }
 
   #mobile-menu {
+    
     position: absolute;
     top: 20%;
     right: 5%;
@@ -751,6 +775,23 @@ font-style: italic;
   #mobile-menu.is-active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
+  /*display login and signup*/
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  height: 100%;
+  width: 100%;
+  
+  outline: none;
+
+ 
+  color: #1e4489;
+  transition: all 0.3s ease;
+}
+
 }
 
 @media screen and (min-width:1025px){ 
