@@ -1,0 +1,186 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/public/stylesheets/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet"> 
+    <title>Pet Professionals</title>
+  </head>
+  <body>
+   
+    <div class="page-wrapper">
+      <nav class="navbar">
+        <div class="navbar-container">
+          <div class="logo-container" id="navbar-logo">
+          <img src="/public/images/LOGO-PET.jpg" alt="" width="100" height="48" />
+          </div>
+          
+          <input type="search" placeholder="Search" class="search-bar">
+          <div class="navbar-toggle" id="mobile-menu">
+            <span class="bar"></span> <span class="bar"></span>
+           
+          </div>
+      
+      
+            <ul class="navbar-menu">
+              <li class="navbar-item">
+                <a href="index.html" class="navbar-links" id="home-page">Home</a>
+              </li>
+            <li class="navbar-item">
+              <a class="navbar-links"  id="drop-menu-src" >Pet Care</a>
+              <ul id="drop-list">
+                <li> <a href="dog-care.html" class="navbar-links" id="petcare-page">Dog Care</a></li>
+                <li> <a href="cat-care.html" class="navbar-links" id="petcare-page">Cat Care</a></li>
+                <li> <a href="small-animal.html" class="navbar-links" id="petcare-page">Small Animal Care</a></li>
+              </ul>
+
+              <ul id="drop-sublist"style = "z-index:-2;">
+                <li> <a href="dog-care.html" class="navbar-links" id="petcare-page">Dog Care</a></li>
+                <li> <a href="cat-care.html" class="navbar-links" id="petcare-page">Cat Care</a></li>
+                <li> <a href="small-animal.html" class="navbar-links" id="petcare-page">Small Animal Care</a></li>
+              </ul>
+      
+            </li>
+       
+            <li class="navbar-item">
+              <a href="#services" class="navbar-links" id="services-page"
+                >Services</a
+              >
+              <li class="navbar-item">
+                <a href="#services" class="navbar-links" id="about-page"
+                  >About</a>
+            </li>
+            <li class="navbar-btn">
+              <a href="sign-up.html" class="button" id="signup">Create Account</a>
+          
+            </li>
+            <li class="navbar-btn">
+             
+              <a href="sign-up.html" class="button" id="signup">Login</a>
+            </li>
+           
+          </ul>
+          </div>
+      </nav>
+      
+      <div class="image-wrapper">
+        <img
+          src="/public/images/BLUETone.jpg"
+          alt=""
+          width="480"
+          height="477"
+          class="image-landing"
+        />
+        <div id="overlay"></div> 
+        <h1 class="main-text">
+          Evidence-based pet care advice for every pet lover
+        </h1>
+      </div>
+      <aside class="button-aside">
+        <button class="button-items"id="consult-button">CONSULT NOW</button>
+        <button class ="button-items"id="learn-button">Learn More</button>
+      </aside>
+    
+    <div class="line-style1"></div>
+    <article class="company-intro">
+  
+      <h2 class="intro-title">The Gift of Pets</h2>
+      <p class ="intro-paragraph">Pets are nature's gift to humanity. It has been scientifically proven that opening our homes and hearts to a pet increases our longevity and improves our overall quality of life as well as the lives of our pets. <br><br> Pet Paradigm Professionals, our mission is to offer resources to help you care for your furry, scaly, feathery, and slimy loved ones. Our pet experts—or “Pexperts”—have been working with pet owners and professionals alike for the past twelve years. They offer one-on-one consultations with current and prospective pet owners as well as group presentations designed for veterinary, pet shelter, and pet breeding professionals.<br><br>
+
+        <h2 class="heading-sub1">Looking for basic pet care advice for the most common type of pets? Need additional help determining which type of pet is right for you and your family? We will work with you and provide tailored evidence-based pet care to ensure lifelong health and wellness of your new companion.<br><br></h2>
+          
+        <h2 class="heading-sub2">Looking for your new best friend? The following organizations can help you find and adopt the perfect companion:<br><br></h2>
+        <ul class="links-outside">
+          <li>
+        General Adoption Resources: https://theshelterpetproject.org/ <br><br>
+      </li>
+        <li>
+        ASPCA: https://www.aspca.org/ <br><br>
+      </li>
+       <li>
+        Fish Rescue: https://www.sterlingshelter.org/humane-society/koi-fish-rescue/<br><br>
+      </li>
+        Snake Rescue: https://savethesnakes.org/snakerescuecall/<br><br>
+        <li>
+        Bird Rescue: https://ftlob.rescuegroups.org/<br><br>
+      </li>
+       </ul>
+        We are also happy to help you navigate the adoption process! We will guide you through each step in the process from determining which type of pet is best suited for your family and home environment, to completing the necessary paperwork, to bringing your new loved one home.<br><br> Please fill out our contact form to request a consultation. We will contact you within 48 hours to schedule a consultation. All fields are required.<br><br>
+        <br><br>
+        </p>
+    </article>
+    <div class="line-style2"></div>
+
+    <h2 id="contact-form"class="Form-Title">Have a Pexpert reach out to you</h2>
+    <form class="forms-wrapper" method="post" action="/">
+
+      
+      <input type="text" class="input-item" name="First Name" placeholder="First Name" required="required" maxlength="20" pattern="[A-Z]"/>
+ 
+      <input type="text" class="input-item" name = "Last Name" placeholder="Last Name" />
+      <input type="text" class="input-item" placeholder="Email" />
+      <input type="text" class="input-item" placeholder="Pet Age" />
+      <input type="text" class="input-item" placeholder="Pet Type" />
+      <button class="input-item" id="submit-petinfo">Submit</button> 
+
+      <div class="line-style2"></div>
+    </form>
+    
+    <footer class="footer-wrapper">
+      <div class="wrapper-links-left">
+      <ul class="link-wrapper">
+        <li class="list-1"><a href="" class="link-text-list">SERVICES</a></li>
+        <div class="dropdown-footer">
+          <button id= "list-menuid-footer"class="dropbtn-footer">PET CARE
+            <i class="fa fa-angle-down"></i>
+          </button>
+          <div class="drop-content-footer">
+            <a href="./dog-care.html" class="list-of-menu-footer">Dog Care</a>
+            <a href="./cat-care.html"class="list-of-menu-footer">Cat Care</a>
+            <a href="./small-animal.html" class="list-of-menu-footer">Small Animal</a>
+          </div>
+        </div>
+        <li class="list-1"><a href="#contact-form" class="link-text-list">CONTACT</a></li>
+        <li class="list-1"><a href="" class="link-text-list">ABOUT US</a></li>
+        <li class="list-1"><a href="" class="link-text-list">SITE MAP</a></li>
+        <li class="list-1">
+        
+          
+          <a href="" class="link-text-list">PRIVACY POLICY</a>
+        </li>
+      </ul>
+    </div>
+
+      <ul class="social-link-wrapper">
+        <li class="social-list">
+          <a href="#" id="social-list-a" class="fa fa-facebook"></a>
+        </li>
+        <li class="social-list">
+          <a href="#" id="social-list-a" class="fa fa-twitter"></a>
+        </li>
+        <li class="social-list">
+          <a href="#" id="social-list-a" class="fa fa-instagram"></a>
+        </li>
+      </ul>
+      <aside class="copyright-wrapper">
+        <i class="fa fa-creative-commons"></i>
+        <p class="copyright-sentence">
+          All Trademarks are owned by Pet Professionals Inc
+        </p>
+      
+      </aside>
+    </div>
+    </footer>
+    <script src="/public/javascripts/functional.js">
+     
+
+    </script>
+  </body>
+</html>

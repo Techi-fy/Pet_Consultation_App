@@ -1,0 +1,34 @@
+{
+  "name": "mattcodesplusdesign.github.io",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "updateNode": "nodemon index.js",
+    "dev": "nodemon mongoServ.js"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "^3.1.8",
+    "esm": "^3.2.25",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "^1.9.2",
+    "mongoose": "^6.7.4",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.20"
+  },
+  "description": "This is a ongoing project that started from a very small school project. I am constantly evolving it to emulate a real live website.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattcodesplusdesign/mattcodesplusdesign.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattcodesplusdesign/mattcodesplusdesign.github.io/issues"
+  },
+  "homepage": "https://github.com/mattcodesplusdesign/mattcodesplusdesign.github.io#readme"
+}
