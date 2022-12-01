@@ -29,12 +29,13 @@
           </div>
       
       
-            <ul class="navbar-menu">
+            <ul class="navbar-menu"  style="z-index:499;">
               <li class="navbar-item">
-                <a href="index.html" class="navbar-links" id="home-page">Home</a>
+                <a href="/public/index.html" class="navbar-links" id="home-page">Home</a>
               </li>
             <li class="navbar-item">
-              <a class="navbar-links"  id="drop-menu-src" >Pet Care</a>
+              
+              <a class="navbar-links"  id="drop-menu-src"   style="z-index:19 ;"><div class= "pet-carelink" style="display: inline;">Pet Care</div></a>
               <ul id="drop-list">
                 <li> <a href="dog-care.html" class="navbar-links" id="petcare-page">Dog Care</a></li>
                 <li> <a href="cat-care.html" class="navbar-links" id="petcare-page">Cat Care</a></li>
@@ -119,16 +120,14 @@
     <div class="line-style2"></div>
 
     <h2 id="contact-form"class="Form-Title">Have a Pexpert reach out to you</h2>
-    <form class="forms-wrapper" method="post" action="/">
-
+    <form class="forms-wrapper" method="post" action="/" >
       
-      <input type="text" class="input-item" name="First Name" placeholder="First Name" required="required" maxlength="20" pattern="[A-Z]"/>
- 
-      <input type="text" class="input-item" name = "Last Name" placeholder="Last Name" />
-      <input type="text" class="input-item" placeholder="Email" />
-      <input type="text" class="input-item" placeholder="Pet Age" />
-      <input type="text" class="input-item" placeholder="Pet Type" />
-      <button class="input-item" id="submit-petinfo">Submit</button> 
+      <input type="text" class="input-item" name="FirstName" placeholder="First Name"/>
+      <input  class="input-item" name="LastName" placeholder="Last Name" />
+      <input  class="input-item"name="Email" placeholder="Email" />
+      <input class="input-item" name="PetAge" placeholder="Pet Age" />
+      <input  class="input-item" name="PetType" placeholder="Pet Type" />
+      <button class="input-item" id="submit-petinfo"><h2 id="submitpet-infotext">Submit</h2></button> 
 
       <div class="line-style2"></div>
     </form>

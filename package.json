@@ -4,12 +4,15 @@
   "private": true,
   "scripts": {
     "start": "node index.js",
-    "updateNode": "nodemon index.js",
-    "dev": "nodemon mongoServ.js"
+    "update": "nodemon index.js",
+    "dev": "nodemon mongoServ.mjs"
   },
   "dependencies": {
+    "body-parser": "^1.20.1",
+    "bootstrap": "^5.2.3",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
+    "dotenv": "^16.0.3",
     "ejs": "^3.1.8",
     "esm": "^3.2.25",
     "express": "~4.16.1",
@@ -17,7 +20,8 @@
     "jade": "^1.9.2",
     "mongoose": "^6.7.4",
     "morgan": "~1.9.1",
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "react-bootstrap": "^2.6.0"
   },
   "description": "This is a ongoing project that started from a very small school project. I am constantly evolving it to emulate a real live website.",
   "repository": {

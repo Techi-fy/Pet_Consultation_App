@@ -1,161 +1,103 @@
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/stylesheets/styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet"> 
-
-    <title>Document</title>
-  </head>
-  <body>
-   
-    <div class="page-wrapper">
-<nav class="navbar">
-  <div class="navbar-container">
-    <div class="logo-container" id="navbar-logo">
-    <img src="./imgs/LOGO-PET.jpg" alt="" width="100" height="48" />
-    </div>
-    
-    <input type="search" placeholder="Search" class="search-bar">
-    <div class="navbar-toggle" id="mobile-menu">
-      <span class="bar"></span> <span class="bar"></span>
-      <span class="bar"></span>
-    </div>
-
-
-      <ul class="navbar-menu">
-        <li class="navbar-item">
-          <a href="index.html" class="navbar-links" id="home-page">Home</a>
-        </li>
-      <li class="navbar-item" >
-        <a href="index.html" class="navbar-links"  id="drop-menu-src">Pet Care</a>
-        <ul id="drop-list">
-          <li> <a href="dog-care.html" class="navbar-links" id="petcare-page">Dog Care</a></li>
-          <li> <a href="cat-care.html" class="navbar-links" id="petcare-page">Cat Care</a></li>
-          <li> <a href="small-animal.html" class="navbar-links" id="petcare-page">Small Animal Care</a></li>
-        </ul>
-
-      </li>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/public/stylesheets/styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
  
-      <li class="navbar-item">
-        <a href="#services" class="navbar-links" id="services-page"
-          >Services</a
-        >
-        <li class="navbar-item">
-          <a href="#services" class="navbar-links" id="about-page"
-            >About</a>
-      </li>
-      <li class="navbar-btn">
-        <a href="sign-up.html" class="button" id="signup">Create Account</a>
-    
-      </li>
-      <li class="navbar-btn">
-       
-        <a href="sign-up.html" class="button" id="signup">Login</a>
-      </li>
-     
-    </ul>
-    </div>
-</nav>
-<div class="container">
-<section class="vh-100" style="background-color: #ffffff;">
-  <div class="container py-5 h-100">
-    <div class="row d-flex justify-content-center align-items-center h-100">
-      <div class="col-12 col-md-8 col-lg-6 col-xl-5">
-        <div class="card shadow-2-strong" style="border-radius: 1rem;">
-          <div class="card-body p-5 text-center">
+    <title>Login</title>
+</head>
 
-            <h3 class="mb-5">Sign in</h3>
-
-            <div class="form-outline mb-4">
-              <input type="email" id="typeEmailX-2" class="form-control form-control-lg" />
-              <label class="form-label" for="typeEmailX-2">Email</label>
-            </div>
-
-            <div class="form-outline mb-4">
-              <input type="password" id="password-form" class="form-control form-control-lg"  minlength="10"/>
-              <label class="form-label" for="password-form">Password</label>
-            </div>
-
-            <!-- Checkbox -->
-            <div class="form-check d-flex justify-content-start mb-4">
-              <input class="form-check-input" type="checkbox" value="" id="form1Example3" />
-              <label class="form-check-label" for="form1Example3"> Remember password </label>
-            </div>
-
-            <button class="btn btn-primary btn-lg btn-block" type="submit">Login</button>
-
-            <hr class="my-4">
-
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+          <div class="logo-container" id="navbar-logo">
+          <img src="/public/images/LOGO-PET.jpg" alt="" width="100" height="48" />
+          </div>
+          
+          <input type="search" placeholder="Search" class="search-bar">
+          <div class="navbar-toggle" id="mobile-menu">
+            <span class="bar"></span> <span class="bar"></span>
            
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-</div>
-</div>
-</section>
-<footer class="footer-wrapper">
-    <div class="wrapper-links-left">
-    <ul class="link-wrapper">
-      <li class="list-1"><a href="" class="link-text-list">SERVICES</a></li>
-      <div class="dropdown-footer">
-        <button id= "list-menuid-footer"class="dropbtn-footer">PET CARE
-          <i class="fa fa-angle-down"></i>
-        </button>
-        <div class="drop-content-footer">
-          <a href="./dog-care.html" class="list-of-menu-footer">Dog Care</a>
-          <a href="./cat-care.html"class="list-of-menu-footer">Cat Care</a>
-          <a href="./small-animal.html" class="list-of-menu-footer">Small Animal</a>
-        </div>
-      </div>
-      <li class="list-1"><a href="#contact-form" class="link-text-list">CONTACT</a></li>
-      <li class="list-1"><a href="" class="link-text-list">ABOUT US</a></li>
-      <li class="list-1"><a href="" class="link-text-list">SITE MAP</a></li>
-      <li class="list-1">
       
-        
-        <a href="" class="link-text-list">PRIVACY POLICY</a>
-      </li>
-    </ul>
-  </div>
+      
+            <ul class="navbar-menu">
+              <li class="navbar-item">
+                <a href="index.html" class="navbar-links" id="home-page">Home</a>
+              </li>
+            <li class="navbar-item">
+              <a class="navbar-links"  id="drop-menu-src" >Pet Care</a>
+              <ul id="drop-list">
+                <li> <a href="dog-care.html" class="navbar-links" id="petcare-page">Dog Care</a></li>
+                <li> <a href="cat-care.html" class="navbar-links" id="petcare-page">Cat Care</a></li>
+                <li> <a href="small-animal.html" class="navbar-links" id="petcare-page">Small Animal Care</a></li>
+              </ul>
 
-    <ul class="social-link-wrapper">
-      <li class="social-list">
-        <a href="#" id="social-list-a" class="fa fa-facebook"></a>
-      </li>
-      <li class="social-list">
-        <a href="#" id="social-list-a" class="fa fa-twitter"></a>
-      </li>
-      <li class="social-list">
-        <a href="#" id="social-list-a" class="fa fa-instagram"></a>
-      </li>
-    </ul>
-    <aside class="copyright-wrapper">
-      <i class="fa fa-creative-commons"></i>
-      <p class="copyright-sentence">
-        All Trademarks are owned by Pet Professionals Inc
-      </p>
-    
-    </aside>
-  </div>
+              <ul id="drop-sublist"style = "z-index:-2;">
+                <li> <a href="dog-care.html" class="navbar-links" id="petcare-page">Dog Care</a></li>
+                <li> <a href="cat-care.html" class="navbar-links" id="petcare-page">Cat Care</a></li>
+                <li> <a href="small-animal.html" class="navbar-links" id="petcare-page">Small Animal Care</a></li>
+              </ul>
+      
+            </li>
+       
+            <li class="navbar-item">
+              <a href="#services" class="navbar-links" id="services-page"
+                >Services</a
+              >
+              <li class="navbar-item">
+                <a href="#services" class="navbar-links" id="about-page"
+                  >About</a>
+            </li>
+            <li class="navbar-btn">
+              <a href="sign-up.html" class="button" id="signup">Create Account</a>
+          
+            </li>
+            <li class="navbar-btn">
+             
+              <a href="sign-up.html" class="button" id="signup">Login</a>
+            </li>
+           
+          </ul>
+          </div>
+      </nav>
+      
+    <div class="login-wrapper">
+        <div class="logo">
+         
+        </div>
+        <div class="text-center mt-4 name">
+            
+        </div>
+        <form class="p-3 mt-3">
+            <div class="form-field d-flex align-items-center">
+             
+                <input type="text" name="userName" id="userName" placeholder="User">
+            </div>
+            <div class="form-field d-flex align-items-center">
+           
+                <input type="password" name="password" id="pwd" placeholder="Password">
+            </div>
+            <button class="btn mt-3">Login</button>
+        </form>
+        <div class="text-center fs-6">
+            <a href="#">Forget password?</a> or <a href="#">Sign up</a>
+        </div>
+    </div>
+    <script src="/public/javascripts/functional.js">
+     
 
-  </footer>
-
+    </script>
 </body>
-
 </html>
