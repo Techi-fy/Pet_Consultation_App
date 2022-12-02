@@ -6,6 +6,7 @@
     "start": "node index.js",
     "update": "nodemon index.js",
     "dev": "nodemon mongoServ.mjs"
+    
   },
   "dependencies": {
     "body-parser": "^1.20.1",

@@ -560,7 +560,18 @@ margin: auto 0;
 }
 
 
-
+#link-wrap-footer {
+  text-decoration: none;
+  list-style: none;
+}
+#list-f-item{
+  text-decoration: none;
+  list-style: none;
+}
+#list-f-item-a{
+  text-decoration: none;
+  list-style: none;
+}
 /* target heading elements*/
 
 @media screen and (min-width:479px) {
@@ -746,6 +757,9 @@ left: 250px;
 }
 
 @media screen and (max-width: 960px) {
+  #fonty-icon{
+    font: size 18px; padding-left: 5px; padding-top: 2px;
+    }
   .navbar-btn {
     visibility: hidden;
    }
@@ -879,6 +893,13 @@ border: #003B6D;
 /*hide mobile login */
 @media screen and (min-width:945px) 
 {
+  #fonty-icon{
+ 
+  display: none;}
+
+  .navbar-item1{
+    display: none;
+  }
   .sign-upParent{
 display: none;
   }
@@ -895,6 +916,7 @@ display: none;
 
 
 @media screen and (min-width:1025px){ 
+  
   .search-bar{
     width: 400px;
   }
@@ -1148,7 +1170,8 @@ color: #FFFFFF;
   
 }
 
-.link-text-list{
+
+.link-text-list {
 list-style: none;
   text-decoration: none;
   color: white;
