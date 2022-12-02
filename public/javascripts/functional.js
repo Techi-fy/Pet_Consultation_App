@@ -28,8 +28,6 @@ function hoverRemoved() {
   dropList.style.opacity = "0";
 }
 
-
-
 /*procedures to execute once element is hovered over and off*/
 dropMenu.addEventListener("mouseover", hoverOnOpacity);
 dropList.addEventListener("mouseover", hoverOnOpacity1);
@@ -37,16 +35,14 @@ dropList.addEventListener("mouseleave", hoverRemoved);
 
 function subListOnOpacity() {
   dropSubMenu.style.opacity = "1";
-dropSubMenu.style.zIndex = "99";
-  
-} 
+  dropSubMenu.style.zIndex = "99";
+}
 function subListOffOpacity() {
   dropSubMenu.style.opacity = "0";
-dropSubMenu.style.zIndex = "-3";
-  
-} 
+  dropSubMenu.style.zIndex = "-3";
+}
 petCareLink.addEventListener("click", subListOnOpacity);
-menu.addEventListener("click", subListOffOpacity)
+menu.addEventListener("click", subListOffOpacity);
 
 /*
 

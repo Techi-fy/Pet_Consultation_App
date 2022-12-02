@@ -93,6 +93,27 @@ height: 80px;
 
 
 }
+/*mobile login*/
+.sign-upParent{
+  display:flex;
+  justify-content: center;
+  width: 10px; 
+  position: absolute; 
+  top: 20px;
+  left: 135px;
+
+  background-color: #003B6D;
+
+  padding: 5px 30px 5px 30px;
+  border-radius: 3px;
+  margin: 0;
+  text-align: center
+  
+  }
+#sign-upDirect{
+  color: white;
+ 
+}
 
 .pet-carelink{
 
@@ -647,6 +668,15 @@ margin: auto 0;
     
 
   }
+  /*hide mobile login */
+
+  .sign-upParent{
+left: 250px;
+  }
+
+
+
+
  .main-text{
   width: 400px;
   font-size: 2rem;
@@ -836,6 +866,23 @@ margin: auto 0;
 }
 
 }
+/*hide mobile login */
+@media screen and (min-width:945px) 
+{
+  .sign-upParent{
+display: none;
+  }
+  #sign-upDirect{
+    display:none;
+  }
+  
+
+}
+
+
+
+
+
 
 @media screen and (min-width:1025px){ 
   .search-bar{
@@ -1170,6 +1217,7 @@ padding-top: 50px;
 }
 /*dog page*/
 @media screen and (min-width:1025px) {
+  
  
   .image-dogcare{
 margin-top: 20px;
