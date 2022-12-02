@@ -817,7 +817,10 @@ left: 250px;
     transform: translate(5%, 20%);
     background: #003B6D;
   }
-
+.sub-bar{
+border: #003B6D;
+  padding: 7px;
+}
   .navbar-toggle .bar {
     display: block;
     cursor: pointer;
