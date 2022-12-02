@@ -20,6 +20,7 @@ const contactSchema =({
 })
 
 
+
 const ContactForm =  mongoose.model("Contact Form", contactSchema)
 
 /*Serve Static Files to Client from public directory*/
@@ -42,7 +43,7 @@ app.post('/', (req, res) => {
     PetAge:req.body.PetAge,
     PetType:req.body.PetType,
   })
-  res.send('SUBMISSION ENTERED')
+  res.send('<h1>SUCCESSFUL</h1>              <a href="/public/index.html" class="navbar-links" id="home-page" style="font-size:1.5rem">Home</a>')
   contactusFormHTML1.save();
   
 })
