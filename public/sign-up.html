@@ -28,85 +28,59 @@
     <nav class="navbar">
       <div class="navbar-container">
         <div class="logo-container" id="navbar-logo">
-          <img
-            src="/public/images/LOGO-PET.jpg"
-            alt=""
-            width="100"
-            height="48"
-          />
+        <img src="/public/images/LOGO-PET.jpg" alt="" width="100" height="48" />
         </div>
-
-        <input type="search" placeholder="Search" class="search-bar" />
-        <div class="navbar-toggle" id="mobile-menu">
+        
+        <input type="search" placeholder="Search" class="search-bar">
+        <div class="navbar-toggle" id="mobile-menu" class="mobile-hamburger">
           <div class="sub-bar"><span class="bar"></span> <span class="bar"></span></div>
+
         </div>
-
-        <ul class="navbar-menu">
+    
+    
+          <ul class="navbar-menu"  style="z-index:499;">
+            <li class="navbar-item">
+              <a href="/public/index.html" class="navbar-links" id="home-page">Home</a>
+            </li>
           <li class="navbar-item">
-            <a href="index.html" class="navbar-links" id="home-page">Home</a>
-          </li>
-          <li class="navbar-item">
-            <a class="navbar-links" id="drop-menu-src">Pet Care<i class="fa fa-angle-down" style="font: size 18px; padding-left: 5px; padding-top: 2px;"></i></a>
+            
+            <a class="navbar-links"  id="drop-menu-src"   style="z-index:19 ;"><div class= "pet-carelink" style="display: inline;" >Pet Care<i class="fa fa-angle-down" id ="fonty-icon"style="font: size 18px; padding-left: 5px; padding-top: 2px;"></i></div></a>
             <ul id="drop-list">
-              <li>
-                <a href="dog-care.html" class="navbar-links" id="petcare-page"
-                  >Dog Care</a>
-              </li>
-              <li>
-                <a href="cat-care.html" class="navbar-links" id="petcare-page"
-                  >Cat Care</a
-                >
-              </li>
-              <li>
-                <a
-                  href="small-animal.html"
-                  class="navbar-links"
-                  id="petcare-page"
-                  >Small Animal Care</a
-                >
-              </li>
+              <li> <a href="dog-care.html" class="navbar-links" id="petcare-page">Dog Care</a></li>
+              <li> <a href="cat-care.html" class="navbar-links" id="petcare-page">Cat Care</a></li>
+              <li> <a href="small-animal.html" class="navbar-links" id="petcare-page">Small Animal Care</a></li>
+          
             </ul>
 
-            <ul id="drop-sublist" style="z-index: -2">
-              <li>
-                <a href="dog-care.html" class="navbar-links" id="petcare-page"
-                  >Dog Care</a
-                >
-              </li>
-              <li>
-                <a href="cat-care.html" class="navbar-links" id="petcare-page"
-                  >Cat Care</a
-                >
-              </li>
-              <li>
-                <a
-                  href="small-animal.html"
-                  class="navbar-links"
-                  id="petcare-page"
-                  >Small Animal Care</a
-                >
-              </li>
+            <ul id="drop-sublist"style = "z-index:-2;">
+              <li> <a href="dog-care.html" class="navbar-links" id="petcare-page">Dog Care</a></li>
+              <li> <a href="cat-care.html" class="navbar-links" id="petcare-page">Cat Care</a></li>
+              <li> <a href="small-animal.html" class="navbar-links" id="petcare-page">Small Animal Care</a></li>
+         
+
             </ul>
+    
           </li>
-
+        
+          
           <li class="navbar-item">
-            <a href="#services" class="navbar-links" id="services-page"
-              >Services</a
-            >
-          </li>
-
-          <li class="navbar-item">
-            <a href="#services" class="navbar-links" id="about-page">About</a>
+            <a href="#about" class="navbar-links" id="services-page">About</a>
+            </li>
+            <li class="navbar-item1">
+              <a href="/public/sign-up.html" class="navbar-links" style="font-weight: bold;" >LOGIN</a>
           </li>
           <li class="navbar-btn">
             <a href="sign-up.html" class="button" id="signup">Create Account</a>
+        
           </li>
-          <li class="navbar-btn">
-            <a href="sign-up.html" class="button" id="signup">Login</a>
+          <li class="navbar-btn" >
+            <a href="sign-up.html" class="button" id="signup" >Login</a>
           </li>
+         
         </ul>
-      </div>
+        </div>
     </nav>
+    
 
     <div class="login-wrapper">
       <div class="logo"></div>
