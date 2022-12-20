@@ -64,7 +64,7 @@
         
           
           <li class="navbar-item">
-            <a href="#about" class="navbar-links" id="services-page">About</a>
+            <a href="./about.html" class="navbar-links" id="services-page">About</a>
             </li>
             <li class="navbar-item1">
               <a href="/public/sign-up.html" class="navbar-links" style="font-weight: bold;" >LOGIN</a>
@@ -84,6 +84,7 @@
 
     <div class="login-wrapper">
       <div class="logo"></div>
+      <h2 class="Topic-Title" style="text-align: center; color: #01447e;">Join Paradigm Pet Professionals.</h2>
       <div class="text-center mt-4 name"></div>
       <form action="/" method="post" class="p-3 mt-3">
         <div class="form-field d-flex align-items-center">
@@ -95,6 +96,9 @@
             name="Password" 
             id="pwd"
             placeholder="Password"
+            title="Must have at least one lowercase letter, one uppercase letter, one digit one special character, and is at least eight characters long.
+"
+            pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,12}$"
           />
         </div>
         <button class="btn mt-3">Login</button>

@@ -55,7 +55,7 @@
           
             
             <li class="navbar-item">
-              <a href="#about" class="navbar-links" id="services-page">About</a>
+              <a href="./about.html" class="navbar-links" id="services-page">About</a>
               </li>
               <li class="navbar-item1">
                 <a href="/public/sign-up.html" class="navbar-links" style="font-weight: bold;" >LOGIN</a>
@@ -91,33 +91,35 @@
       </aside>
     
     <div class="line-style1"></div>
-    <article class="company-intro">
+    <article class="dog-page-intro">
   
-      <h2 class="intro-title">The Gift of Pets</h2>
-      <p class ="intro-paragraph">Pets are nature's gift to humanity. It has been scientifically proven that opening our homes and hearts to a pet increases our longevity and improves our overall quality of life as well as the lives of our pets. <br><br> Pet Paradigm Professionals, our mission is to offer resources to help you care for your furry, scaly, feathery, and slimy loved ones. Our pet experts—or “Pexperts”—have been working with pet owners and professionals alike for the past twelve years. They offer one-on-one consultations with current and prospective pet owners as well as group presentations designed for veterinary, pet shelter, and pet breeding professionals.<br><br>
+      <h2 class="Topic-Title">The Gift of Pets</h2>
+      <p class ="intro-paragraph">Pets are nature's gift to humanity. It has been scientifically proven that opening our homes and hearts to a pet increases our longevity and improves our overall quality of life as well as the lives of our pets. <br class="br-breaks-p"><br class="br-breaks-p">Pet Paradigm Professionals, our mission is to offer resources to help you care for your furry, scaly, feathery, and slimy loved ones. Our pet experts—or “Pexperts”—have been working with pet owners and professionals alike for the past twelve years. They offer one-on-one consultations with current and prospective pet owners as well as group presentations designed for veterinary, pet shelter, and pet breeding professionals.<br><br>
 
-        <h2 class="heading-sub1">Looking for basic pet care advice for the most common type of pets? Need additional help determining which type of pet is right for you and your family? We will work with you and provide tailored evidence-based pet care to ensure lifelong health and wellness of your new companion.<br><br></h2>
+        <h2 class="heading-sub1">Looking for basic pet care advice for the most common type of pets? Need additional help determining which type of pet is right for you and your family? We will work with you and provide tailored evidence-based pet care to ensure lifelong health and wellness of your new companion. <br class="br-breaks-p"><br class="br-breaks-p"></h2>
           
-        <h2 class="heading-sub2">Looking for your new best friend? The following organizations can help you find and adopt the perfect companion:<br><br></h2>
+        <h2 class="heading-sub2">Looking for your new best friend? The following organizations can help you find and adopt the perfect companion: <br class="br-breaks-p"><br class="br-breaks-p"></h2>
         <ul class="links-outside">
           <li>
-        General Adoption Resources: https://theshelterpetproject.org/ <br><br>
+        General Adoption Resources: https://theshelterpetproject.org/ <br class="br-breaks-p"><br class="br-breaks-p">
       </li>
         <li>
-        ASPCA: https://www.aspca.org/ <br><br>
+        ASPCA: https://www.aspca.org/ <br class="br-breaks-p"><br>
       </li>
        <li>
-        Fish Rescue: https://www.sterlingshelter.org/humane-society/koi-fish-rescue/<br><br>
+        Fish Rescue: https://www.sterlingshelter.org/humane-society/koi-fish-rescue/<br class="br-breaks-p"><br class="br-breaks-p">
       </li>
       <li>
-        Snake Rescue: https://savethesnakes.org/snakerescuecall/<br><br>
+        Snake Rescue: https://savethesnakes.org/snakerescuecall/<br class="br-breaks-p"><br class="br-breaks-p">
       </li>
         <li>
-        Bird Rescue: https://ftlob.rescuegroups.org/<br><br>
+        Bird Rescue: https://ftlob.rescuegroups.org/<br class="br-breaks-p"><br class="br-breaks-p"> 
+      
       </li>
        </ul>
+       <br class="dsktop-line-br">
         We are also happy to help you navigate the adoption process! We will guide you through each step in the process from determining which type of pet is best suited for your family and home environment, to completing the necessary paperwork, to bringing your new loved one home.<br><br> Please fill out our contact form to request a consultation. We will contact you within 48 hours to schedule a consultation. All fields are required.<br><br>
-        <br><br>
+        <br class="br-breaks-p"><br class="br-breaks-p">
         </p>
     </article>
     <div class="line-style2"></div>
@@ -125,12 +127,12 @@
     <h2 id="contact-form"class="Form-Title">Have a Pexpert reach out to you</h2>
     <form class="forms-wrapper" method="post" action="/" >
       
-      <input type="text" class="input-item" name="FirstName" placeholder="First Name"/>
-      <input  type="text" class="input-item" name="LastName" placeholder="Last Name" />
-      <input  type="email" class="input-item"name="Email" placeholder="Email" />
-      <input  type='number'  class="input-item" name="PetAge" placeholder="Pet Age" />
-      <input type="text" class="input-item" name="PetType" placeholder="Pet Type" />
-      <button class="input-item" id="submit-petinfo"><h2 id="submitpet-infotext">Submit</h2></button> 
+      <input type="text" class="input-item"  required pattern="[a-zA-Z]+"  title="Only alphabet characters" name="FirstName" placeholder="First Name"/>
+      <input  type="text" class="input-item" required pattern="[a-zA-Z]+"  title="Only alphabet characters" name="LastName" placeholder="Last Name" />
+      <input  type="email" class="input-item"required name="Email" placeholder="Email" />
+      <input  type='number'  class="input-item" name="PetAge" min="1" max="80" placeholder="Pet Age" />
+      <input type="text" class="input-item" required pattern="[a-zA-Z]+"name="PetType" placeholder="Pet Type" />
+      <button class="input-item" id="submit-petinfo"  title="Only alphabet characters" ><h2 id="submitpet-infotext">Submit</h2></button> 
 
       <div class="line-style2"></div>
     </form>
@@ -150,7 +152,7 @@
           </div>
         </div>
         <li class="list-1"><a href="index.html#contact-form" class="link-text-list">CONTACT</a></li>
-        <li class="list-1"><a href="" class="link-text-list">ABOUT US</a></li>
+        <li class="list-1"><a href="./about.html" class="link-text-list">ABOUT US</a></li>
         <li class="list-1"><a href="" class="link-text-list">SITE MAP</a></li>
         <li class="list-1">
         
