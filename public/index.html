@@ -54,18 +54,18 @@
             </li>
           
             
-            <li class="navbar-item">
-              <a href="./about.html" class="navbar-links" id="services-page">About</a>
+            <li class="navbar-item" style="z-index: 99;"id="about-sec">
+              <a href="./about.html" class="navbar-links" id="services-page" >About</a>
               </li>
-              <li class="navbar-item1">
-                <a href="/public/sign-up.html" class="navbar-links" style="font-weight: bold;" >LOGIN</a>
+              <li class="navbar-item1"style="font-weight: bold; z-index: 99;">
+                <a href="/public/sign-up.html" class="navbar-links" style="font-weight: bold; z-index: 99;" >LOGIN</a>
             </li>
             <li class="navbar-btn">
               <a href="sign-up.html" class="button" id="signup">Create Account</a>
           
             </li>
             <li class="navbar-btn" >
-              <a href="sign-up.html" class="button" id="signup" >Login</a>
+              <a href="sign-up.html" class="button" id="signup">Login</a>
             </li>
            
           </ul>
@@ -86,8 +86,8 @@
         </h1>
       </div>
       <aside class="button-aside">
-        <button class="button-items"id="consult-button">CONSULT NOW</button>
-        <button class ="button-items"id="learn-button">Learn More</button>
+        <button class="button-items"id="consult-button"  onclick="window.location.href='#forms-wrapper'">CONSULT NOW</button>
+        <button class ="button-items"id="learn-button"onclick="window.location.href='sign-up.html'">Learn More</button>
       </aside>
     
     <div class="line-style1"></div>
@@ -127,7 +127,7 @@
     <h2 id="contact-form"class="Form-Title">Have a Pexpert reach out to you</h2>
     <form class="forms-wrapper" method="post" action="/" >
       
-      <input type="text" class="input-item"  required pattern="[a-zA-Z]+"  title="Only alphabet characters" name="FirstName" placeholder="First Name"/>
+      <input type="text" class="input-item" id="forms-wrapper" required pattern="[a-zA-Z]+"  title="Only alphabet characters" name="FirstName" placeholder="First Name"/>
       <input  type="text" class="input-item" required pattern="[a-zA-Z]+"  title="Only alphabet characters" name="LastName" placeholder="Last Name" />
       <input  type="email" class="input-item"required name="Email" placeholder="Email" />
       <input  type='number'  class="input-item" name="PetAge" min="1" max="80" placeholder="Pet Age" />
